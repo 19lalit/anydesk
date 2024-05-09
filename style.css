@@ -1,0 +1,426 @@
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(209, 207, 207); */
+}
+
+header .pic img{
+    height: 80px;
+    width: 150px;
+    cursor: pointer;
+}
+
+header nav{
+width: 100%;
+    height: 70px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 30px;
+    list-style: none;
+}
+header nav>ul>li:hover{
+    border-bottom: 3px solid  rgb(236, 67, 67);
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    background-color: rgb(236, 67, 67);
+    font-size: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    /* text-align: center; */
+    color: white;
+    /* box-shadow: none; */
+    cursor: pointer;
+    border: 1px solid rgb(236, 67, 67);
+}
+
+.bttn{
+    font-size: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    color: rgb(236, 67, 67); 
+    border: 1px solid rgb(236, 67, 67);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.bttn:hover{
+    background-color: rgb(255, 186, 186);
+}
+
+header nav ul li a:hover{
+    color: rgb(236, 67, 67);
+}
+
+.drop ul{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+.drop ul li{
+    text-align: center;
+    width: 150px;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.drop .obj li{
+    margin-left: -30px;
+    font-size: 18px;
+}
+
+.drop .obj li:hover{
+    color: rgb(236, 67, 67);
+    cursor: pointer;
+}
+
+.drop .obj h1{
+    color: rgb(236, 67, 67);
+    margin-left: 20px;
+}
+
+header nav ul .drop{
+    position: absolute;
+    top: 100px;
+    background-color:white;
+    /* flex-direction: column; */
+    /* width: 200px; */
+    height: 340px;
+    display: none;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    left: 40px;
+}
+
+header nav ul>li:hover>.drop{
+    display: flex;
+}
+
+header nav ul .drop1{
+    position: absolute;
+    top: 100px;
+    background-color:white;
+    /* flex-direction: column; */
+    /* width: 200px; */
+    height: 460px;
+    display: none;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    left: 140px;
+}
+
+.drop1 .obj li{
+    margin-left: -30px;
+    font-size: 18px;
+}
+
+.drop1 ul{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+.drop1 ul li{
+    text-align: center;
+    width: 150px;
+    text-align: left;
+    padding: 8px;
+
+}
+
+.drop1 .obj h1{
+    color: rgb(236, 67, 67);
+    margin-left: 20px;
+}
+
+header nav ul>li:hover>.drop1{
+    display: flex;
+}
+
+header nav ul .drop2{
+    position: absolute;
+    top: 100px;
+    background-color:white;
+    /* flex-direction: column; */
+    /* width: 200px; */
+    height: 300px;
+    display: none;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    left: 450px;
+}
+
+header nav ul>li:hover>.drop2{
+    display: flex;
+}
+
+.drop2 .obj h1{
+    color: rgb(236, 67, 67);
+    margin-left: 20px;
+}
+
+.drop2 ul li{
+    text-align: center;
+    width: 150px;
+    text-align: left;
+    padding: 8px;
+
+}
+
+.drop2 ul{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+.drop2 .obj li{
+    margin-left: -30px;
+    font-size: 18px;
+}
+
+header nav ul .drop3{
+    position: absolute;
+    top: 100px;
+    background-color:white;
+    /* flex-direction: column; */
+    /* width: 200px; */
+    height: 300px;
+    display: none;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    left: 400px;
+}
+
+header nav ul>li:hover>.drop3{
+    display: flex;
+}
+
+.drop3 .obj h1{
+    color: rgb(236, 67, 67);
+    margin-left: 20px;
+}
+
+.drop3 ul li{
+    text-align: center;
+    width: 150px;
+    text-align: left;
+    padding: 8px;
+
+}
+
+.drop3 ul{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+.drop3 .obj li{
+    margin-left: -30px;
+    font-size: 18px;
+}
+
+.text{
+width: 100%;
+display: flex;
+justify-content: center;
+/* text-align: center; */
+height: 300px;
+background-color: white;
+}
+
+.text h2{
+    font-size: 100px;
+    text-align: center;
+    color:rgb(236, 67, 67) ;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txt p{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btun{
+    background-color: rgb(236, 67, 67);
+    font-size: 20px;
+    border-radius: 40px;
+    height: 60px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(236, 67, 67);
+    
+}
+
+.btun:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+section{
+    height: max-content;
+    width: 100%;
+}
+
+section .box{
+   height: 400px;
+   width: 100%;
+   background-color: white;
+   display: flex;
+   /* border: 1px solid gray; */
+   margin-top: 50px;
+}
+
+section .box .sec{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.image img{
+    height: 400px;
+    width: 500px;
+}
+
+section .box h2{
+    font-size: 20px;
+    color:  rgb(236, 67, 67);
+}
+
+section .box h3{
+    font-size: 55px;
+    margin-top: 20px;
+
+}
+
+section .box span{
+    font-size: 20px;
+}
+
+.btnn{
+    background-color: rgb(236, 67, 67);
+    font-size: 20px;
+    border-radius: 40px;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(236, 67, 67);
+}
+
+.btnn:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.box1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(129, 129, 129);
+}
+
+.logo{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo .imge{
+    height: 100px;
+    width: calc(90%/6);
+}
+
+.logo img{
+    height: 100px;
+    width: 200px;
+}
+
+.sec h5{
+    font-size: 3rem;
+    color: #464646;
+}
+
+.sec h6{
+    font-size: 25px;
+    color: rgb(236, 67, 67);
+    margin-top: -30px;
+}
+
+.bttnn{
+    background-color: rgb(236, 67, 67);
+    font-size: 20px;
+    border-radius: 25px;
+    height: 100px;
+    width: 320px;
+    /* margin-top: 50px; */
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    border: 1px solid rgb(236, 67, 67);
+}
+
+/* .box2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: gray; */
+/* } */
+
+.box2 h4{
+    text-align: center;
+    font-size: 3rem;
+    color:  rgb(236, 67, 67);
+    margin: 10px;
+    margin-left: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
